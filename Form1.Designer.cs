@@ -30,6 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button6 = new System.Windows.Forms.Button();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.button5 = new System.Windows.Forms.Button();
+            this.panel11 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
             this.button4 = new System.Windows.Forms.Button();
             this.panel9 = new System.Windows.Forms.Panel();
@@ -46,12 +50,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
-            this.panel12 = new System.Windows.Forms.Panel();
-            this.button6 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -81,15 +81,65 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(227, 700);
+            this.panel1.Size = new System.Drawing.Size(261, 700);
             this.panel1.TabIndex = 0;
+            // 
+            // button6
+            // 
+            this.button6.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.White;
+            this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
+            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button6.Location = new System.Drawing.Point(15, 534);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(231, 67);
+            this.button6.TabIndex = 23;
+            this.button6.Text = "INFO";
+            this.button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // panel12
+            // 
+            this.panel12.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel12.Location = new System.Drawing.Point(15, 601);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(231, 12);
+            this.panel12.TabIndex = 22;
+            // 
+            // button5
+            // 
+            this.button5.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
+            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.Location = new System.Drawing.Point(15, 613);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(231, 67);
+            this.button5.TabIndex = 21;
+            this.button5.Text = "CONTACT US";
+            this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // panel11
+            // 
+            this.panel11.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel11.Location = new System.Drawing.Point(15, 680);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(231, 20);
+            this.panel11.TabIndex = 20;
             // 
             // panel10
             // 
             this.panel10.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel10.Location = new System.Drawing.Point(15, 335);
+            this.panel10.Location = new System.Drawing.Point(15, 423);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(197, 20);
+            this.panel10.Size = new System.Drawing.Size(231, 20);
             this.panel10.TabIndex = 19;
             // 
             // button4
@@ -101,9 +151,9 @@
             this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(15, 290);
+            this.button4.Location = new System.Drawing.Point(15, 356);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(197, 45);
+            this.button4.Size = new System.Drawing.Size(231, 67);
             this.button4.TabIndex = 18;
             this.button4.Text = "SETTINGS";
             this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -112,9 +162,9 @@
             // panel9
             // 
             this.panel9.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel9.Location = new System.Drawing.Point(15, 278);
+            this.panel9.Location = new System.Drawing.Point(15, 344);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(197, 12);
+            this.panel9.Size = new System.Drawing.Size(231, 12);
             this.panel9.TabIndex = 17;
             // 
             // button3
@@ -125,9 +175,9 @@
             this.button3.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.Location = new System.Drawing.Point(15, 233);
+            this.button3.Location = new System.Drawing.Point(15, 277);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(197, 45);
+            this.button3.Size = new System.Drawing.Size(231, 67);
             this.button3.TabIndex = 16;
             this.button3.Text = "SUBSCRIPTION";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -137,9 +187,9 @@
             // panel8
             // 
             this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel8.Location = new System.Drawing.Point(15, 221);
+            this.panel8.Location = new System.Drawing.Point(15, 265);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(197, 12);
+            this.panel8.Size = new System.Drawing.Size(231, 12);
             this.panel8.TabIndex = 15;
             // 
             // button2
@@ -151,9 +201,9 @@
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(15, 176);
+            this.button2.Location = new System.Drawing.Point(15, 198);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(197, 45);
+            this.button2.Size = new System.Drawing.Size(231, 67);
             this.button2.TabIndex = 14;
             this.button2.Text = "AI";
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -162,9 +212,9 @@
             // panel7
             // 
             this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel7.Location = new System.Drawing.Point(15, 164);
+            this.panel7.Location = new System.Drawing.Point(15, 186);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(197, 12);
+            this.panel7.Size = new System.Drawing.Size(231, 12);
             this.panel7.TabIndex = 13;
             // 
             // button1
@@ -178,7 +228,7 @@
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.Location = new System.Drawing.Point(15, 119);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(197, 45);
+            this.button1.Size = new System.Drawing.Size(231, 67);
             this.button1.TabIndex = 12;
             this.button1.Text = "HOME";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -189,13 +239,13 @@
             this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel6.Location = new System.Drawing.Point(15, 99);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(197, 20);
+            this.panel6.Size = new System.Drawing.Size(231, 20);
             this.panel6.TabIndex = 11;
             // 
             // panel4
             // 
             this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel4.Location = new System.Drawing.Point(212, 99);
+            this.panel4.Location = new System.Drawing.Point(246, 99);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(15, 601);
             this.panel4.TabIndex = 2;
@@ -216,7 +266,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(227, 99);
+            this.panel2.Size = new System.Drawing.Size(261, 99);
             this.panel2.TabIndex = 0;
             // 
             // label2
@@ -257,20 +307,10 @@
             this.panel5.Controls.Add(this.label3);
             this.panel5.Controls.Add(this.pictureBox1);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel5.Location = new System.Drawing.Point(227, 0);
+            this.panel5.Location = new System.Drawing.Point(261, 0);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(973, 50);
+            this.panel5.Size = new System.Drawing.Size(939, 50);
             this.panel5.TabIndex = 1;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(18, 14);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(33, 33);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
             // 
             // label3
             // 
@@ -283,55 +323,15 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "DASHBAORD";
             // 
-            // panel11
+            // pictureBox1
             // 
-            this.panel11.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel11.Location = new System.Drawing.Point(15, 680);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(197, 20);
-            this.panel11.TabIndex = 20;
-            // 
-            // button5
-            // 
-            this.button5.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(15, 635);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(197, 45);
-            this.button5.TabIndex = 21;
-            this.button5.Text = "CONTACT US";
-            this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // panel12
-            // 
-            this.panel12.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel12.Location = new System.Drawing.Point(15, 623);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(197, 12);
-            this.panel12.TabIndex = 22;
-            // 
-            // button6
-            // 
-            this.button6.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
-            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(15, 578);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(197, 45);
-            this.button6.TabIndex = 23;
-            this.button6.Text = "INFO";
-            this.button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button6.UseVisualStyleBackColor = true;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(18, 14);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(33, 33);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 

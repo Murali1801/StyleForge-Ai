@@ -44,6 +44,9 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.frmSignUp = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.txtemail = new System.Windows.Forms.TextBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.userName = new System.Windows.Forms.Panel();
             this.txtUserName = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -57,6 +60,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.frmSignUp.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.userName.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.exitApp)).BeginInit();
@@ -68,7 +73,7 @@
             this.linkLabel1.Font = new System.Drawing.Font("Nirmala UI", 9F);
             this.linkLabel1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.linkLabel1.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(126)))), ((int)(((byte)(34)))), ((int)(((byte)(206)))));
-            this.linkLabel1.Location = new System.Drawing.Point(196, 135);
+            this.linkLabel1.Location = new System.Drawing.Point(191, 86);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(54, 20);
             this.linkLabel1.TabIndex = 12;
@@ -118,6 +123,8 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
+            this.checkBox1.Checked = true;
+            this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox1.Font = new System.Drawing.Font("Nirmala UI", 7.8F, System.Drawing.FontStyle.Bold);
             this.checkBox1.ForeColor = System.Drawing.Color.Black;
             this.checkBox1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -135,7 +142,7 @@
             this.panel2.Controls.Add(this.textBox1);
             this.panel2.Controls.Add(this.pictureBox3);
             this.panel2.ForeColor = System.Drawing.Color.Black;
-            this.panel2.Location = new System.Drawing.Point(48, 363);
+            this.panel2.Location = new System.Drawing.Point(43, 363);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(300, 55);
             this.panel2.TabIndex = 7;
@@ -180,7 +187,7 @@
             this.password.Controls.Add(this.pictureBox5);
             this.password.Controls.Add(this.txtPassword);
             this.password.Controls.Add(this.pictureBox2);
-            this.password.Location = new System.Drawing.Point(48, 277);
+            this.password.Location = new System.Drawing.Point(43, 277);
             this.password.Name = "password";
             this.password.Size = new System.Drawing.Size(300, 55);
             this.password.TabIndex = 6;
@@ -224,15 +231,16 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Nirmala UI", 19.8F, System.Drawing.FontStyle.Bold);
             this.label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label1.Location = new System.Drawing.Point(40, 77);
+            this.label1.Location = new System.Drawing.Point(35, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(142, 46);
+            this.label1.Size = new System.Drawing.Size(137, 45);
             this.label1.TabIndex = 1;
             this.label1.Text = "Sign up";
             // 
             // frmSignUp
             // 
             this.frmSignUp.BackColor = System.Drawing.Color.White;
+            this.frmSignUp.Controls.Add(this.panel1);
             this.frmSignUp.Controls.Add(this.linkLabel1);
             this.frmSignUp.Controls.Add(this.label2);
             this.frmSignUp.Controls.Add(this.terms);
@@ -248,13 +256,48 @@
             this.frmSignUp.Name = "frmSignUp";
             this.frmSignUp.Size = new System.Drawing.Size(400, 635);
             this.frmSignUp.TabIndex = 5;
+            this.frmSignUp.Paint += new System.Windows.Forms.PaintEventHandler(this.frmSignUp_Paint);
+            // 
+            // panel1
+            // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.txtemail);
+            this.panel1.Controls.Add(this.pictureBox6);
+            this.panel1.Location = new System.Drawing.Point(43, 202);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(300, 55);
+            this.panel1.TabIndex = 13;
+            // 
+            // txtemail
+            // 
+            this.txtemail.BackColor = System.Drawing.Color.White;
+            this.txtemail.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtemail.Font = new System.Drawing.Font("Nirmala UI", 10.2F);
+            this.txtemail.ForeColor = System.Drawing.Color.Black;
+            this.txtemail.Location = new System.Drawing.Point(57, 15);
+            this.txtemail.Multiline = true;
+            this.txtemail.Name = "txtemail";
+            this.txtemail.Size = new System.Drawing.Size(226, 30);
+            this.txtemail.TabIndex = 1;
+            this.txtemail.Text = "Email";
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.pictureBox6.Location = new System.Drawing.Point(3, 10);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(48, 35);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 0;
+            this.pictureBox6.TabStop = false;
             // 
             // userName
             // 
             this.userName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.userName.Controls.Add(this.txtUserName);
             this.userName.Controls.Add(this.pictureBox1);
-            this.userName.Location = new System.Drawing.Point(48, 190);
+            this.userName.Location = new System.Drawing.Point(43, 129);
             this.userName.Name = "userName";
             this.userName.Size = new System.Drawing.Size(300, 55);
             this.userName.TabIndex = 5;
@@ -288,7 +331,7 @@
             this.createAcc.AutoSize = true;
             this.createAcc.Font = new System.Drawing.Font("Nirmala UI", 9F);
             this.createAcc.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.createAcc.Location = new System.Drawing.Point(44, 135);
+            this.createAcc.Location = new System.Drawing.Point(39, 86);
             this.createAcc.Name = "createAcc";
             this.createAcc.Size = new System.Drawing.Size(146, 20);
             this.createAcc.TabIndex = 2;
@@ -337,6 +380,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.frmSignUp.ResumeLayout(false);
             this.frmSignUp.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.userName.ResumeLayout(false);
             this.userName.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -368,5 +414,8 @@
         private System.Windows.Forms.Label createAcc;
         private System.Windows.Forms.PictureBox exitApp;
         private System.Windows.Forms.Panel background;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.TextBox txtemail;
+        private System.Windows.Forms.PictureBox pictureBox6;
     }
 }

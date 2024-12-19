@@ -39,8 +39,8 @@ namespace Sign_up_and_Sign_in_Systems
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            Dashboard dashboard = new Dashboard();
-            dashboard.Show();
+            Form1 form = new Form1();
+            form.ShowDialog();
             this.Hide();
         }
 
@@ -57,9 +57,10 @@ namespace Sign_up_and_Sign_in_Systems
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Sign_Up signUp = new Sign_Up();
+            /*Sign_Up signUp = new Sign_Up();
             signUp.Show();
-            this.Hide();
+    
+            this.Hide();*/
         }
 
         private void userName_TextChanged(object sender, EventArgs e)
