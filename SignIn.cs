@@ -61,5 +61,10 @@ namespace Sign_up_and_Sign_in_Systems
             signUp.Show();
             this.Hide();
         }
+
+        private void userName_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
